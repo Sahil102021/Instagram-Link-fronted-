@@ -28,7 +28,6 @@ const ProfileCard = () => {
       <div className="space-y-4">
         <LinkItem label="Riya Art Infotech" href="https://riya-art-infotech-front.vercel.app/" color="bg-pink-500" Icon={FaGlobe} />
         <LinkItem label="linkedin" href="https://www.linkedin.com/company/riya-art-infotech" color="bg-purple-600" Icon={FaShoppingCart} />
-        <LinkItem label="" href="https://www.instagram.com/riya_art_infotech" color="bg-red-600" Icon={FaYoutube} />
       </div>
 
       <div className="my-6 border-t border-white/20" />
