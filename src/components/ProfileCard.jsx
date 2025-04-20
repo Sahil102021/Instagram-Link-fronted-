@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import LinkItem from "./LinkItem";
 import SocialIcons from "./SocialIcons";
 import logo from "../assets/logo.png";
-import { FaGlobe, FaShoppingCart, FaYoutube } from "react-icons/fa";
-
+import { FaGlobe, FaShoppingCart, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 
 const ProfileCard = () => {
   return (
@@ -22,12 +22,34 @@ const ProfileCard = () => {
         animate={{ scale: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
       />
-      <h1 className="text-3xl font-bold mb-2 tracking-wide">Riya Art Infotech</h1>
-      <p className="text-sm text-gray-200 mb-6 italic">Art & Tech beautifully blended</p>
+      <h1 className="text-3xl font-bold mb-2 tracking-wide">
+        Riya Art Infotech
+      </h1>
+      <p className="text-sm text-gray-200 mb-6 italic">
+        Helping businesses grow with reliable websites, smart applications, and
+        modern digital solutions.
+      </p>
 
       <div className="space-y-4">
-        <LinkItem label="Riya Art Infotech" href="https://riya-art-infotech-front.vercel.app/" color="bg-pink-500" Icon={FaGlobe} />
-        <LinkItem label="linkedin" href="https://www.linkedin.com/company/riya-art-infotech" color="bg-purple-600" Icon={FaShoppingCart} />
+        <LinkItem
+          label="Riya Art Infotech"
+          href="https://riya-art-infotech-front.vercel.app/"
+          color="bg-[#4243c2]"
+          Icon={FaGlobe}
+        />
+        {/* <LinkItem label="linkedin" href="https://www.linkedin.com/company/riya-art-infotech" color="bg-[#0077B5]" Icon={FaShoppingCart} /> */}
+        <LinkItem
+          label="Mail"
+          href="mailto:riyaartinfotech@gmail.com"
+          color="bg-blue-500"
+          Icon={IoIosMail}
+        />
+        <LinkItem
+          label="Whatsapp "
+          href="https://wa.me/8155083855"
+          color="bg-green-500"
+          Icon={FaWhatsapp}
+        />
       </div>
 
       <div className="my-6 border-t border-white/20" />
