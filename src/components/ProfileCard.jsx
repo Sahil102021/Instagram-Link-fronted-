@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import LinkItem from "./LinkItem";
 import SocialIcons from "./SocialIcons";
 import logo from "../assets/logo.png";
-import { FaGlobe, FaShoppingCart, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaBehance, FaGlobe, FaShoppingCart, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
 const ProfileCard = () => {
@@ -26,10 +26,12 @@ const ProfileCard = () => {
         Riya Art Infotech
       </h1>
       <p className="text-sm text-gray-200 mb-6 italic">
-        Helping businesses grow with reliable websites, smart applications, and
-        modern digital solutions.
+      Web & App Development | Custom Software | Tech Solutions | UI/UX Design
+      <br />
+      Your one-stop destination for all your digital needs.
+      <br />
+      All type of website development and design.
       </p>
-
       <div className="space-y-4">
         <LinkItem
           label="Riya Art Infotech"
@@ -46,9 +48,15 @@ const ProfileCard = () => {
         />
         <LinkItem
           label="Whatsapp "
-          href="https://wa.me/8155083855"
+          href="https://wa.me/9327868002"
           color="bg-green-500"
           Icon={FaWhatsapp}
+        />
+        <LinkItem
+          label="Behance"
+          href="https://www.behance.net/riya_art_infotech"
+          color="bg-indigo-600"
+          Icon={FaBehance}
         />
       </div>
 

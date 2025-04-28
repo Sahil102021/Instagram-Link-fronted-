@@ -15,11 +15,6 @@ const socials = [
     color: "hover:text-blue-600",
   },
   {
-    icon: FaBehance,
-    href: "https://www.behance.net/riya_art_infotech",
-    color: "hover:text-indigo-400",
-  },
-  {
     icon: FaUpwork,
     href: "https://www.upwork.com/freelancers/~017f6ec0d8ce3236fb?mp_source=share",
     color: "hover:text-black",
