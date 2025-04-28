@@ -4,11 +4,26 @@ import { motion } from "framer-motion";
 import { FaUpwork } from "react-icons/fa6";
 
 const socials = [
-  { icon: FaInstagram, href: "https://www.instagram.com/riya_art_infotech", color: "hover:text-pink-400" },
-  { icon: FaLinkedin, href: "https://www.linkedin.com/company/riya-art-infotech", color: "hover:text-blue-600" },
-  { icon: FaBehance, href: "https://behance.net", color: "hover:text-indigo-400" },
-  { icon: FaUpwork, href: "https://www.upwork.com/freelancers/~017f6ec0d8ce3236fb", color: "hover:text-black" },
-  
+  {
+    icon: FaInstagram,
+    href: "https://www.instagram.com/riyaart_infotech/",
+    color: "hover:text-pink-400",
+  },
+  {
+    icon: FaLinkedin,
+    href: "https://www.linkedin.com/company/riya-art-infotech",
+    color: "hover:text-blue-600",
+  },
+  {
+    icon: FaBehance,
+    href: "https://www.behance.net/riya_art_infotech",
+    color: "hover:text-indigo-400",
+  },
+  {
+    icon: FaUpwork,
+    href: "https://www.upwork.com/freelancers/~017f6ec0d8ce3236fb?mp_source=share",
+    color: "hover:text-black",
+  },
 ];
 
 const SocialIcons = () => {
